@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Likesalad.Jelly Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Arial, sans-serif';
+            background-color: #fff0f6; /* Light pink background */
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        .navbar-custom {
+    background-color: #f06292; /* Pink color for navbar */
+    padding: 0.5rem 1rem;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #e91e63; /* Darker pink for border */
+    position: relative;
+    z-index: 10;
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff !important;
+    padding: 0.75rem 1rem;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: #ffccbc; /* Light pink on hover */
+    color: #ffffff;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='none' stroke='currentColor' stroke-width='2' d='M4 6h16M4 12h16M4 18h16'/%3E%3C/svg%3E");
+}
+
+        .main-container {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+
+        .hero-section {
+            text-align: center;
+            padding: 60px 20px;
+            background-color: #e1bee7; /* Light purple background */
+            border-radius: 10px;
+            margin-bottom: 40px;
+        }
+
+        .hero-section h1 {
+            font-size: 2.8rem;
+            color: #ad1457;
+            margin-bottom: 20px;
+            
+        }
+
+        .hero-section p {
+            font-size: 1.2rem;
+            color: #6a1b9a;
+        }
+
+        .features-section {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-bottom: 40px;
+        }
+
+        .feature-card {
+            background-color: #ffffff;
+            border: 1px solid #d81b60;
+            border-radius: 8px;
+            padding: 15px;
+            width: 30%;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        .feature-card img {
+    width: 100%; /* Ensure the image takes up the full width of its container */
+    height: 200px; /* Set a fixed height for all images */
+    object-fit: cover; /* Ensures the images are resized to cover the set width and height without distortion */
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+
+        .feature-card h3 {
+            color: #d81b60;
+            font-size: 1.4rem;
+            margin-bottom: 10px;
+        }
+
+
+
+        .cta-section {
+            text-align: center;
+            margin: 40px 0;
+        }
+
+        .cta-section a {
+            background-color: #d81b60;
+            color: #ffffff;
+            padding: 15px 40px;
+            font-size: 1.2rem;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+
+        .cta-section a:hover {
+            background-color: #ad1457;
+        }
+
+        @media (max-width: 768px) {
+            .features-section {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .feature-card {
+                width: 80%;
+                margin-bottom: 30px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-custom navbar-expand-lg">
+        <!-- Brand Logo -->
+        <a class="navbar-brand" href="#">Likesalad.Jelly</a>
+    
+        <!-- Navbar Toggler for Mobile View -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <!-- Navbar Links -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="galery.html">Products</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="testi.html">Testimonial</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="kontak.html">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    
+    <!-- Main Container -->
+    <div class="main-container">
+        <!-- Hero Section -->
+        <div class="hero-section">
+            <h1>Welcome to Likesalad.Jelly</h1>
+            <p>Fresh, flavorful, and fun – discover the magic of our Likesalad.Jelly!</p>
+        </div>
+
+        <!-- Features Section -->
+        <div class="features-section">
+            <!-- Feature 1 -->
+            <div class="feature-card">
+                <img src="salad1.jpeg" alt="Delicious Jelly Salad">
+                <h3>Terbuat dari susu Fresh</h3>
+                <p>kesegaran alami susu memberikan cita rasa yang kaya dan menutrisi di setiap gigitan</p>
+            </div>
+
+            <!-- Feature 2 -->
+            <div class="feature-card">
+                <img src="salad6.jpg" alt="Fresh Ingredients">
+                <h3>Menggunakan Yogurt</h3>
+                <p>Tidak hanya enak, salad jelly kami juga sehat karena menggunakan yogurt</p>
+            </div>
+
+            <!-- Feature 3 -->
+            <div class="feature-card">
+                <img src="salad3.jpeg" alt="Perfect for Any Time">
+                <h3>Jelly yang super lembut</h3>
+                <p>Jelly yang super lembut menghadirkan sensasi lezat dan segar yang tak terlupakan</p>
+            </div>
+        </div>
+
+     
+    
+
+    <!-- Footer -->
+    <footer class="text-center" style="background-color: #ad1457; color: #ffffff; padding: 20px;">
+        <p>&copy; 2024 Likesalad.Jelly</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
+
+
+
